@@ -1,5 +1,5 @@
 # eslint-config-lens
-eslint-config-lens 是一个可分享 ESLint 配置包，用于React+Typescript项目
+eslint-config-lens 是一个可分享 ESLint 配置包，用于React+Typescript或React+Javascript项目
 
 ## 用法
 1、安装依赖
