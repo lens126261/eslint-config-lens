@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-lens",
+  "version": "1.0.0",
+  "description": "eslint可分享配置包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lens126261/eslint-config-lens.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "lens",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-ali": "^10.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.7",
+    "@typescript-eslint/eslint-plugin": "^1.x",
+    "@typescript-eslint/parser": "^2.x"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "bugs": {
+    "url": "https://github.com/lens126261/eslint-config-lens/issues"
+  },
+  "homepage": "https://github.com/lens126261/eslint-config-lens#readme"
+}
