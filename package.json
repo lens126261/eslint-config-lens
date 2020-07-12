@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-lens",
+  "name": "eslint-config-react-lens",
   "version": "1.0.0",
   "description": "eslint可分享配置包",
   "main": "index.js",
