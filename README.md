@@ -4,7 +4,7 @@ eslint-config-react-lens 是一个可分享 ESLint 配置包，用于React+Types
 ## 用法
 1、安装依赖
 ```
-npm -D eslint-config-lens
+npm -D eslint-config-react-lens
 ```
 2、在 .eslintrc 文件中配置
 ```
