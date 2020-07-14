@@ -17,7 +17,7 @@ module.exports = {
       "@typescript-eslint/no-empty-interface": 0, // 是否允许空的interface
       "default-case": 0, // 默认case
       'no-magic-numbers': [ // 是否禁用魔术数字
-        'warning',
+        'warn',
         {
           ignore: [],
           ignoreArrayIndexes: true, // 忽略数组索引
