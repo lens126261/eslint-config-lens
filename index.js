@@ -5,7 +5,7 @@ module.exports = {
       "prettier" // eslint-config-prettier 可以关闭所有不必要的规则或可能与Prettier冲突的规则。要确保其放在extends数组的最后
     ],
     plugins: ["prettier"], // eslint-plugin-prettier插件会调用prettier对你的代码风格进行检查
-    root: true,
+    root: true, // 停止在父级目录中寻找
     rules: {
       "prettier/prettier": ["error"], // 表示被prettier标记的地方抛出错误信息
       "import/prefer-default-export": 0, // 当模块只输出一个变量时，是否需要添加default
@@ -36,7 +36,7 @@ module.exports = {
       ]
     },
     globals: {
-      dd: false,
+      dd: false, // false等价于readonly，表示只读，true等价于writable，表示允许重写变量
       window: false,
       global: false,
       __WPO: false,
