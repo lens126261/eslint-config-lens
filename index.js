@@ -1,6 +1,5 @@
 module.exports = {
     extends: [
-      "eslint-config-ali/react", // 用于校验jsx文件格式
       "eslint-config-ali/typescript/react", // 用于校验ts文件
       "prettier" // eslint-config-prettier 可以关闭所有不必要的规则或可能与Prettier冲突的规则。要确保其放在extends数组的最后
     ],
